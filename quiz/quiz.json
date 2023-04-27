@@ -1,0 +1,52 @@
+[
+  {
+    "question": "JavaScript is:",
+    "answer": "loosely typed",
+    "options": [
+      "heavily typed",
+      "strongly typed",
+      "loosely typed",
+      "virtually typed"
+    ]
+  },
+  {
+    "question": "A JS function is:",
+    "answer": "an object",
+    "options": [
+      "an object",
+      "a primitive",
+      "an asynchronous task",
+      "an operator"
+    ]
+  },
+  {
+    "question": "Array.push() returns:",
+    "answer": "updated array.length property",
+    "options": [
+      "the element added to the array",
+      "null",
+      "updated array.length property",
+      "the updated array"
+    ]
+  },
+  {
+    "question": "The output of console.log(5+3+'2') is:",
+    "answer": "82",
+    "options": [
+      "10",
+      "'10'",
+      "82",
+      "532"
+    ]
+  },
+  {
+    "question": "The output of: console.log(!!null)",
+    "answer": "false",
+    "options": [
+      "false",
+      "true",
+      "TypeError",
+      "SyntaxError"
+    ]
+  }
+]

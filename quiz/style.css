@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+
+.lives {
+  background-color: white;
+  font-size: 2rem;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+
+#answer {
+  background-color: rgb(213, 240, 250);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: upper-latin;
+}
+
+li {
+  background-color: lightcoral;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.lift {
+  background-color: pink;
+}
+
+.active {
+  border: 5px dashed gray;
+}
+
+.visited {
+  background-color: rgb(237, 237, 237);
+}
+
+#modal-overlay {
+  background-color: rgba(0, 0, 0, 0.275);
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 30px;
+}
+
+.modal-content > button {
+  background-color: lightsalmon;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
